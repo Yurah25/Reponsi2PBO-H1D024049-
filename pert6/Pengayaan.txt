@@ -1,0 +1,13 @@
+Pertanyaan Refleksi
+Setelah menyelesaikan kode, jawab pertanyaan berikut:
+
+1. Apa itu abstract class dan Kenapa kita membutuhkan Abstarct class?
+abstract class adalah class yang tidak bisa dibuat objeknya secara langsung dan hanya bisa dijadikan induk atau template method abstarct kosong yang harus diisi oleh child class 
+2. Apa perbedaan utama antara abstract class dan class biasa dalam pemrograman berorientasi objek? 
+abstract class tidak bisa dibuat langsung objeknya dan bsia memiliki abstract method tanpa isi sedangkan class biasa bisa langsung dibuatkan objeknya dan methodnya harus memiliki isi
+3. Mengapa subclass wajib mengimplementasikan semua abstract method dari parent class?
+karena abstract method  tujuannya itu seperti aturan/janji/kontrak yang dimana child class harus mengimplemetasikannya jika tidak amaka akan error.
+4. Mengapa abstract method tidak boleh memiliki isi implementasi di dalam abstract class?
+Karena abstract class bertujuan untuk membuat sebuah method yang harus dimiliki semua child class dan untuk apa isinya itu harus child class yang isi
+5. Bagaimana abstract class dapat mendukung konsep polimorfisme, dan mengapa objek yang direferensikan melalui tipe abstract class tetap dapat menjalankan perilaku berbeda pada masing-masing subclass?
+mendukung dengan cara mewajibkan mengisi abstract class pada class lain jadi dapat membuat polimorfisme atau prilaku objek objek yang berbeda dan walauobjek direferensikan dengan abstract class logika yang jalan adalah mailik masing masing child class

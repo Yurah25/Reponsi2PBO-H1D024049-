@@ -1,0 +1,13 @@
+Setelah anda menyelesaikan kode, tolong jawab pertanyaan dibawah ini ya =
+
+
+1. Apa tujuan utama adanya interface dalam pemrograman berorientasi objek, dan bagaimana interface membantu menciptakan kontrak perilaku?
+=untuk menciptakan aturan perilaku yang harus dimiliki oleh class 
+2. Mengapa interface dapat memiliki banyak implementasi, dan apa makna konseptual dari kemampuan tersebut dalam desain sistem?
+=karena interface seperti kemampuan class bagaimana implementasinya contohnya pembayaran yang diimplementasikan beda beda ada cash qris dan transfer
+3. Apa perbedaan mendasar antara extends dan implements dalam konteks interface, jika dilihat secara konsep tanpa melihat contoh kode?
+=extends mewarisi sifat dari sqtu induk saja yang hubungannya  is-A kalau implements  memenuhi janji/kontrak aturan satu atau lebih interface yang hubungannya bisa melakukan
+4. Apa alasan diperkenalkannya default method dalam interface, dan bagaimana fitur ini memengaruhi keberlangsungan (compatibility) suatu sistem yang sudah berjalan?
+=untuk penambahan fitur baru oada interface lama tanpa merusak kode class yang sudah ada
+5. Bagaimana konsep multiple interface memperluas fleksibilitas desain tanpa menimbulkan masalah kompleksitas yang biasa muncul pada multiple inheritance?
+=karena interface tidak membawa logika/state jadi hanya mewarisi method kosong jadi tidak akan ada konflik data antar induk.

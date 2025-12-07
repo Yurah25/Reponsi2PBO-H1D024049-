@@ -1,0 +1,13 @@
+Pertanyaan Refleksi
+Setelah menyelesaikan kode, jawab pertanyaan berikut:
+
+1. Apa perbedaan antara interface dengan class biasa?
+= interdace hanya berisi deklarasi method sebagai kontrak tanpa isidan tidak punya constructor dan variabelnya otomatis konstanta(public static final) sedangkan class biasa kebalikannya
+2. Mengapa interface tidak memiliki implementasi method di dalamnya?
+=karena tujuan interface untuk membuat aturan ketika class baru dibuat dengan implements interfacenya sebagai template jadi implementasinya diserahkan ke hild
+3. Apa tujuan penggunaan keyword "implements" pada sebuah class?'
+=agar menyambungkan child class dengan parent class agar interface dapat mewarisi atribut/method ke child class ini mirip seperti extends akan tetapi bedanya interface bisa diimplements banyak 
+4. Apakah sebuah class dapat mengimplementasikan lebih dari satu interface? Jelaskan dan berikan contoh sederhana.
+=bisa, kalau extends maksimal 1 akan tetapi interface boleh lebih dari satu contohnya class Hp interface Kamera, Telepon, Sinyal, Layar
+5. Jika sebuah class mengimplementasikan interface, apa yang terjadi jika class tersebut tidak mengimplementasikan semua method dari interface tersebut?
+=maka class tersebut tidak bisa dibuat objeknya karena tidak dianggak class yang utuh 
